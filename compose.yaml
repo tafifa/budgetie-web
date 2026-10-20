@@ -1,0 +1,15 @@
+services:
+    web:
+        build: .
+        image: budgetie-web
+        container_name: budgetie-web
+        restart: unless-stopped
+        ports:
+            - '127.0.0.1:${BUDGETIE_PORT:-8082}:80'
+        networks:
+            - budgetie
+
+networks:
+    budgetie:
+        name: budgetie
+        driver: bridge

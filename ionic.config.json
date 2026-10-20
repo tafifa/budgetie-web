@@ -1,0 +1,5 @@
+{
+  "name": "budgetie",
+  "integrations": { "capacitor": {} },
+  "type": "react-vite"
+}

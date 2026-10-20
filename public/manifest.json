@@ -1,0 +1,12 @@
+{
+  "name": "budgetie — your money, clearly",
+  "short_name": "budgetie",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8fc",
+  "theme_color": "#f6f8fc",
+  "description": "A calm, local-first budget tracker.",
+  "icons": [
+    { "src": "/images/budgetie.png", "sizes": "192x192 512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

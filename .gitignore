@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+/.agents
+/graphify-out
+# Capacitor native build output
+android/app/build/
+android/.gradle/
+android/local.properties
+android/capacitor-cordova-android-plugins/
+android/app/src/main/assets/public/

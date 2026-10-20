@@ -1,0 +1,65 @@
+/* Budgetie palette mapped onto Ionic's theme variables. Light only, like the original app. */
+:root {
+  color-scheme: light;
+
+  --ink: #172033;
+  --muted: #69748b;
+  --line: #e5e9f1;
+  --surface: #ffffff;
+  --canvas: #f6f8fc;
+  --primary-soft: #edf0ff;
+  --mint: #dff8ee;
+  --green: #18805b;
+  --yellow: #a86a13;
+  --yellow-soft: #fff4db;
+  --red: #c5454d;
+  --red-soft: #fff0f0;
+  --shadow: 0 12px 30px rgba(38, 51, 86, 0.06);
+
+  --ion-font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --ion-background-color: var(--canvas);
+  --ion-background-color-rgb: 246, 248, 252;
+  --ion-text-color: var(--ink);
+  --ion-text-color-rgb: 23, 32, 51;
+  --ion-item-background: transparent;
+  --ion-toolbar-background: rgba(246, 248, 252, 0.92);
+  --ion-tab-bar-background: rgba(255, 255, 255, 0.96);
+  --ion-tab-bar-color: var(--muted);
+  --ion-tab-bar-color-selected: var(--ion-color-primary);
+  --ion-border-color: var(--line);
+
+  --ion-color-primary: #3e55d8;
+  --ion-color-primary-rgb: 62, 85, 216;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #2f3fab;
+  --ion-color-primary-tint: #5166dc;
+
+  --ion-color-success: #18805b;
+  --ion-color-success-rgb: 24, 128, 91;
+  --ion-color-success-contrast: #ffffff;
+  --ion-color-success-contrast-rgb: 255, 255, 255;
+  --ion-color-success-shade: #157150;
+  --ion-color-success-tint: #2f8d6b;
+
+  --ion-color-warning: #a86a13;
+  --ion-color-warning-rgb: 168, 106, 19;
+  --ion-color-warning-contrast: #ffffff;
+  --ion-color-warning-contrast-rgb: 255, 255, 255;
+  --ion-color-warning-shade: #945d11;
+  --ion-color-warning-tint: #b1792b;
+
+  --ion-color-danger: #c5454d;
+  --ion-color-danger-rgb: 197, 69, 77;
+  --ion-color-danger-contrast: #ffffff;
+  --ion-color-danger-contrast-rgb: 255, 255, 255;
+  --ion-color-danger-shade: #ad3d44;
+  --ion-color-danger-tint: #cb585f;
+
+  --ion-color-medium: #69748b;
+  --ion-color-medium-rgb: 105, 116, 139;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-medium-contrast-rgb: 255, 255, 255;
+  --ion-color-medium-shade: #5c667a;
+  --ion-color-medium-tint: #788297;
+}
